@@ -1,0 +1,36 @@
+body {
+    background: #04151fff;
+    font-family: monospace;
+    color: #d7ceb2ff;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+}
+
+.card-block {
+    background-color: #5d5e60ff;
+    padding: 1em;
+    padding-right: 5em;
+    position: relative;
+    font-size: larger;
+
+}
+
+.btn-outline-dark {
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    color: #381d2aff;
+}
+
+.btn-outline-dark:hover {
+    background-color: #381d2aff;
+    color: darkgrey;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
